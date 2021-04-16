@@ -3,7 +3,7 @@ language: bash
 
 
 before_install:
-  - sudo apt-get -y npm
+  - sudo apt-get install -y npm
 
 script: 
   - "echo this is working"  
