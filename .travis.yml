@@ -12,7 +12,6 @@ install:
 script:
  - npm test
  - npm run build || true
- 
 
 deploy:
  provider: s3
