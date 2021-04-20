@@ -20,8 +20,8 @@ deploy:
   skip_cleanup: true
   region: us-west-1
   on:
-    repo: sourcefuse/relayhealthcare-webapp
-    branch: $PROD_TAG
+    repo: sourcefuse/pubnub-moderation
+    branch: develop
   bucket: test-intouch-bucket-dest
 
 notifications:
